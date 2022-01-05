@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div class="heading">
+  <span class="title">
+    <h1>You 
+      <span class="letter">C</span>
+      <span class="letter">A</span>
+      <span class="letter">N</span> haz Meme!</h1>
+    <h2>But first, you must 
+      <span class="letter">M</span>
+      <span class="letter">A</span>
+      <span class="letter">K</span>
+      <span class="letter">E</span>
+      meme!
+    </h2>
+  </span>
+
+    <form action="" id="memeform">
+      <p>
+        <label>Image Url: 
+          <input type="url" class='memeInput' name="img-url" id="img-url" placeholder="Paste full img url here." required> 
+        </label>
+      </p>
+      <p>
+        <label>Top Text: 
+          <input type="text" class='memeInput' name="top-text" id="top-text" placeholder="(Optional) Enter meme top text here.">
+        </label>
+      </p>
+      <p>
+        <label>Bottom Text: 
+          <input type="text" class='memeInput' name="bottom-text" id="bottom-text" placeholder="(Optional) Enter meme bottom text here.">
+        </label>
+      </p>
+      <input type="submit" class='memeInput' value="Create">
+  
+    </form>
+  </div>
+
+    <div id="gallery">
+      
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

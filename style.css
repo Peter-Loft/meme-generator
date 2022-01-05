@@ -1,0 +1,101 @@
+.letter {
+    transition: color 500ms;
+}
+
+body {
+    background-color: sandybrown;
+}
+
+.memeInput {
+    width: 80%;
+    padding: 8px 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    text-align: center;
+}
+
+.heading {
+    background-color: salmon;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20;
+}
+
+#gallery {
+    position: relative;
+    width: 90%;
+    padding: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#gallery div img {
+    width: 483px;
+}
+
+.gitem {
+    position: relative;
+    float: left;
+    margin: 12px;
+}
+
+.toptext {
+    position: absolute;
+    top: 15;
+    left: 0;
+    right: 0;
+    font-size: 1.75em;
+    text-align: center;
+    font-family: impact;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    
+}
+
+.bottomtext {
+    position: absolute;
+    bottom: 60;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    font-size: 1.75em;
+    text-align: center;
+    font-family: impact;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+    
+}
+
+.deleter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height: 25px;
+    width: 60px;
+}
