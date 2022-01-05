@@ -4,7 +4,7 @@ Requires you to do the heavy lifting of selecting the image and words, then make
 
 Also allows you to delete unworthy memes.
 
-Some good meme images can be found here:
+Some good meme images can be found here:<br>
 https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lord-of-the-rings-sean-bean-boromir-1584636601.jpg
 <br>
 https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/01/Homer%20Arbusto.jpeg?itok=8sK6jQzW
